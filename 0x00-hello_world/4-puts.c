@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * a program that print an expression using the puts funstion 
+ * a program that print an expression using the puts funstion
  *
  * Return:always 0 (successful)
 */

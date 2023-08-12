@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ * main function is printing an expression
+ */
 int main(void)
 
 {

@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - entry point
  * a c program that prints with putchar function
 */

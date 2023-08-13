@@ -7,9 +7,11 @@
 int main (void)
 {
 	int i;
+	char y;
 
 	for (i = 0 ; i <= 9 ; i++)
-		printf("%d", i);
+		y = (char) i;
+		printf(y);
 	printf('\n');
 	return (0);
 }

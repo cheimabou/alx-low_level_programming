@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - start point
+ * main - Start point
  *
- * this program prints with the printf function
+ * Description : this program prints with the printf function
  *
  * Return : return 0 (successful)
 */

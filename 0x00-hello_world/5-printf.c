@@ -4,7 +4,7 @@
  *
  * Description : this program prints with the printf function
  *
- * Return : return 0 (successful)
+ * Return:always 0 (successful)
 */
 
 int main(void)

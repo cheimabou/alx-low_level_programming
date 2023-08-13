@@ -7,7 +7,7 @@
 /**
  * main - entry point
  * this c program can tell if a number is positive , negative or equals to zero
- * Return :always 0 (successful)
+ * Return:always 0 (successful)
 */
 int main(void)
 {

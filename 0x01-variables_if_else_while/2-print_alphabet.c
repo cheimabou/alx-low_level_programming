@@ -2,6 +2,7 @@
 /**
  * main - entry point
  * a c program that prints with putchar function
+ * Return: always 0 (successful)
 */
 int main(void)
 {

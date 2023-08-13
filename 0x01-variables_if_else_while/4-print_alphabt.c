@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * a c program that prints all the alphabet except q and e using the putchar function
+ * a c program that prints all alphabet except q and e using putchar function
  * Return: always 0 (succesfull)
 */
 int main(void)

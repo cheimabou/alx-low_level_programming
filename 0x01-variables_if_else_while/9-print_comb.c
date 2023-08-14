@@ -8,12 +8,21 @@ int main(void)
 {
 	int i;
 
-	for (i = 0 ; i <= 8 ; i++)
+	i = 0;
+	while (i <=9)
 	{
 		putchar('0' + i);
-		putchar(',');
-		putchar(' ');
+		if (i != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		i++ ;
 	}
-	putchar('0' + 9);
-	return (0);
+	putchar('\n');
 }
+
+
+
+
+

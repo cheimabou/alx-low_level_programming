@@ -17,19 +17,26 @@ int main(void)
 			printf(" ");
 			printf("Fizz");
 			if (i % 5 == 0)
+			{
 				printf("Buzz");
+				printf(" ");
+			}
+			else
+			{
+			printf(" ");
+			}	
 		}
 		else
 		{
 			if (i % 5 == 0)
 			{
-				printf(" ");
 				printf("Buzz");
+				printf(" ");
 			}
 			else
 			{
-				printf(" ");
 				printf("%d", i);
+				printf(" ");
 			}
 		}
 	}

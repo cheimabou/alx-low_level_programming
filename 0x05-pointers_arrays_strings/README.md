@@ -2,3 +2,4 @@
  2- a function that returns the length of a string
  a function that prints a string 
 a function that prints a string in reverse
+a function that prints every other character of a string

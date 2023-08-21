@@ -12,10 +12,11 @@ void print_rev(char *s)
 	{
 		p++;
 	}
+	p--;
 	while (p >= s)
 	{
-		p--;
 		_putchar(*p);
+		p--;
 	}
 	_putchar('\n');
 }

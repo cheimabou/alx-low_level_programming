@@ -1,19 +1,15 @@
 #include "main.h"
 /**
- * _strlen - a function that returns the legth of a string using pointers
- * @s : variable that holds the memory @ of the string
- * Return: the length
+ * _puts - a function thatprints a string
+ * @str : variable that holds the memory @ of the string
 */
-int _strlen(char *s)
+void _puts(char *str)
 {
 	char *p = str;
-	int i;
 
-	i = 0;
 	while (*p != '\0')
 	{
-		p++ ;
-		i++ ;
+		_putchar(*p);
+		p++;
 	}
-	return (i);
 }

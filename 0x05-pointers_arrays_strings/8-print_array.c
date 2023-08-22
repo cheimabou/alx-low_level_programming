@@ -13,6 +13,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", *p);
 		printf(", ");
+		p++;
 	}
 	printf("\n");
 }

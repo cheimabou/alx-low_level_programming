@@ -4,3 +4,4 @@
 a function that prints a string in reverse
 a function that prints every other character of a string
  8- a function that prints the elements of an array
+ a function that copies the content of a string ti another

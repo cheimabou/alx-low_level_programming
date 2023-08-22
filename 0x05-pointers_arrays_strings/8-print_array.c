@@ -6,10 +6,9 @@
 */
 void print_array(int *a, int n)
 {
-	int *p;
+	int *p = a;
 	int i;
 
-	*p = a;
 	for (i = 0; i < n; i++)
 	{
 		printf("%d", *p);

@@ -8,16 +8,17 @@
 char *string_toupper(char *a)
 {
 	char *p = a;
+	int i;
+	char c;
 
 	while (*p != '\0')
 	{
-		int i = (int) *p;
-
+		i = (int) *p;
 		if (i >= 97 && i <= 122)
 		{
 			i = i - 32;
 		}
-		char c = (char) i;
+		c = (char) i;
 		*p = c;
 		p++;
 	}

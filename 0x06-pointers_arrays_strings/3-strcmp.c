@@ -10,16 +10,10 @@ int _strcmp(char *s1, char *s2)
 {
 	int m;
 	int n;
+	int s;
 
 	m = (int) *s1;
 	n = (int) *s2;
-	if (m >= n)
-	{
-		if (m > n)
-			return (15);
-		else
-			return (0);
-	}
-	else
-		return (-15);
+	s = m - n;
+	return (s);
 }

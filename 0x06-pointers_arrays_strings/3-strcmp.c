@@ -10,10 +10,18 @@ int _strcmp(char *s1, char *s2)
 {
 	int m;
 	int n;
-	int s;
+	char *p1 = s1;
+	char *p2 = s2;
 
-	m = (int) *s1;
-	n = (int) *s2;
-	s = m - n;
-	return (s);
+	while (*p1 != '\0' || *p2 != '\0')
+	{
+		m = (int) *p1;
+		n = (int) *p2;
+		if (m != n)
+			return (m - n);
+		p1++;
+		p2++;
+	}
+	return (0);
 }
+

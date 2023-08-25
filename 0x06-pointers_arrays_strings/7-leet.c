@@ -9,7 +9,7 @@ char *leet(char *a)
 	char *p = a;
 	char arr[] = {'A', 'E', 'O', 'T', 'L'};
 	int val[] = {4, 3, 0, 7, 1};
-	int i;
+	unsigned int i;
 
 	while (*a != '\0')
 	{

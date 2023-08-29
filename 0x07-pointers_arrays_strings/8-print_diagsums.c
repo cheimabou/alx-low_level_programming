@@ -20,7 +20,7 @@ void print_diagsums(int *a, int size)
 		j++;
 		k--;
 	}
-	putchar(s1);
-	putchar(", ");
-	putchar(s2);
+	printf("%d", s1);
+	printf(", ");
+	printf("%d\n", s2);
 }

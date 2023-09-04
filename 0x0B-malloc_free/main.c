@@ -20,7 +20,7 @@ int main(void)
 	printf("%s\n", s);
 	free(s);
 
-    s = str_concat(NULL, "Hello");
+   s = str_concat(NULL, "Hello");
 	if (s == NULL)
 	{
 		printf("failed\n");

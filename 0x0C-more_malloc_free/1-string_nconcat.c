@@ -26,24 +26,23 @@ s2 = "";
 		s = s + 1;
 		s1++;
 	}
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n - 1; i++)
 	{
 		so = so + 1;
 		s2++;
 	}
-	k = (char *)malloc(sizeof(char) * (s + so + 1));
+	k = (char *)malloc(sizeof(char) * (s + so + 2));
 	if (k == NULL)
 	return (NULL);
 	j = 0;
-	while (*p != '\0')
+	for (j = 0; j < s; j++)
 	{
 		k[j] = p[j];
-		p++;
 	}
-	for (m = 0; m < so; m++)
+	for (m = 0; m <= so; m++)
 	{
 		k[j] = p2[m];
-		p2++;
+		j++;
 	}
 	k[j] = '\0';
 	return (k);

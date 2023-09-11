@@ -1,8 +1,10 @@
 #ifndef new_type
 #define new_type
-typedef struct {
+
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
-} dog;
+};
 #endif

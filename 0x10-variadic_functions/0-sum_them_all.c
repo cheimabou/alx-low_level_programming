@@ -6,7 +6,8 @@
 */
 int sum_them_all(const unsigned int n, ...)
 {
-	int i, s;
+	unsigned int i;
+	int s;
 	va_list p;
 
 	va_start(p, n);

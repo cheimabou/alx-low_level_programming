@@ -16,21 +16,21 @@ list_t *add_node(list_t **head, const char *str)
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 		return (NULL);
-	new->str = strdup(str);
-	while (str != NULL)
-	{
-		s++;
-		str++;
-	}
-	new->len = s;
-	if (head == NULL)
-	{
-		*head = new;
-		new->next = NULL;
-	}
-	else
-	{
-		new->next = *head;
-	}
-	return (new);
+new->str = strdup(str);
+if (new->str == NULL)
+{
+free(new);
+return (NULL);
+}
+const char *temp = str;
+
+while (temp != NULL)
+{
+s++;
+temp++;
+}
+new->len = s;
+new->next = *head;
+*head = new;
+return (new);
 }

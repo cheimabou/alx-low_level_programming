@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+void before_main(void) __attribute__((constructor));
 typedef struct list_s
 {
 	    char *str;

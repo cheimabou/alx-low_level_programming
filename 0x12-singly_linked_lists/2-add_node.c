@@ -8,7 +8,7 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
-	int s;
+	size_t s;
 
 	s = 0;
 	if (str == NULL)
@@ -22,12 +22,9 @@ if (new->str == NULL)
 free(new);
 return (NULL);
 }
-const char *temp = str;
-
-while (temp != NULL)
+while (str[s] != '\0')
 {
 s++;
-temp++;
 }
 new->len = s;
 new->next = *head;

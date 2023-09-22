@@ -8,7 +8,7 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new;
-	int s = 0;
+	size_t s;
 
 	if (str == NULL)
 		return (NULL);
@@ -21,8 +21,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(new);
 		return (NULL);
 	}
-	size_t s = 0;
-
+	s = 0;
 	while (str[s] != '\0')
 	{
 		s++;

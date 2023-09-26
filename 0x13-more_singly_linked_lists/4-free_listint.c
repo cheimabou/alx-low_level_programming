@@ -7,10 +7,9 @@ void free_listint(listint_t *head)
 {
 while (head != NULL)
 {
-listint_t *p = head;
+void *p = head;
 
-head = head->n;
-free(p->n);
+head = head->next;
 free(p);
 }
 }
